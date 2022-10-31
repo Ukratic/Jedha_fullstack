@@ -15,4 +15,4 @@ Silhouette score, Elbow method
 Visualization libraries :
 Plotly, Seaborn, Matplotlib
 
-![NYC map of boroughs](<https://github.com/Ukratic/Jedha_fullstack/3. Conversion - Uber - Walmart/Uber/data/Boroughs_Labels_New_York_City_Map.png>)
+![NYC map of boroughs](https://github.com/Ukratic/Jedha_fullstack/blob/main/3.%20Conversion%20-%20Uber%20-%20Walmart/Uber/data/Boroughs_Labels_New_York_City_Map.png)

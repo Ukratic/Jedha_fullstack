@@ -1,6 +1,6 @@
 ## Repository for Data projects in the Jedha Fullstack course
 <br>
-[Jedha website](https://www.jedha.co/formations/formation-data-scientist)<br>
+<a href="https://www.jedha.co/formations/formation-data-scientist">Jedha website</a><br>
 
 #### 1. Construction and supply of a data management infrastructure
 #### Kayak 
