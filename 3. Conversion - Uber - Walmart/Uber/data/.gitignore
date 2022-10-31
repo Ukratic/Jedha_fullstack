@@ -1,0 +1,6 @@
+# Ignore all text files
+*.txt
+# Ignore html files
+*.html
+# Ignore csv here
+*.csv
