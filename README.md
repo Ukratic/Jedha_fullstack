@@ -9,14 +9,14 @@ Stored cleaned data in an S3 bucket and transfered to AWS RDS database instance<
 Queried SQL database for selection of best cities based on weather<br>
 Delivered maps of selected city locations and hotel locations illustrating daily temperatures and hotel price ranges
 
-*Tools : APIs, BeautifulSoup, Boto3, AWS S3, AWS RDS, SQL, SQLAlchemy, Plotly*
+*APIs, BeautifulSoup, Boto3, AWS S3, AWS RDS, SQL, SQLAlchemy, Plotly*
 <br><br>
 
 #### 2. Exploratory Data Analysis (EDA)
 #### Speed Dating
 Explore a speed dating dataset to determine the factors that determine a second date opportunity
 
-*Tools : Python- Pandas, Numpy, Seaborn, Matplotlib*
+*Python- Pandas, Numpy, Seaborn, Matplotlib*
 <br><br>
 
 #### 3. Predictive analysis of structured data using artificial intelligence
@@ -27,21 +27,21 @@ Estimate weekly sales in stores by building a machine learning model and explain
 #### Uber
 To optimize wait-time, create algorithms that will determine where are the hot-zones that drivers should be in at any given time of day
 
-*Tools : EDA, Sklearn, XGBoost, linear regression, regularization, logistic regression, decision trees, random forests, voting & boosting algorithms, gridsearch & cross validation, K-Means, DBSCAN, Gaussian Mixture, KNN*
+*EDA, Sklearn, XGBoost, linear regression, regularization, logistic regression, decision trees, random forests, voting & boosting algorithms, gridsearch & cross validation, K-Means, DBSCAN, Gaussian Mixture, KNN*
 <br><br>
 
 #### 4. Predictive analysis of unstructured data using artificial intelligence
 #### AT&T Spam Detector
 Build a deep learning model that can automatically flag spams based on message content
 
-*Tools : Tensorflow, Keras, Natural Language Processing, Tokenization, Encoding, Lemmatization*
+*Tensorflow, Keras, Natural Language Processing, Tokenization, Encoding, Lemmatization*
 <br><br>
 
 #### 5. Industrialization of a machine learning algorithm and automation of decision-making processes
 #### Getaround
-*Tools : Flask, Streamlit, API endpoints, serving of machine learning models, model deployment, Heroku, Github*
+*Flask, Streamlit, API endpoints, machine learning models, model deployment, Heroku, Github*
 <br><br>
 
 #### 6. Administration of data management projects
 #### TBD
-*Tools : Whole fullstack datascience process including data extraction and preprocessing, model training and deployment of application (frontend and backend)*
+*TBD*
