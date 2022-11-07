@@ -20,3 +20,5 @@ The final deliverables should include a .csv file in a S3 bucket containing enri
 
 Libraries used :
 Beautifulsoup, Requests, Boto3, SQL Alchemy, Plotly, Pandas
+
+N.B. : 2 pictures in "data" folder to show S3 bucket contents and RDS table in pgAdmin

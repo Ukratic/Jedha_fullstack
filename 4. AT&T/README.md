@@ -13,4 +13,4 @@ Deliverables :
 - Clearly state the achieved performance
 
 Libraries used :
-Pandas, Numpy, Matplotlib, Tensorflow
+Pandas, Numpy, Matplotlib, Tensorflow, Transformers
