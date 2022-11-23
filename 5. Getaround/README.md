@@ -14,6 +14,6 @@ Deliverables :
 - A documented online API containing at least one /predict endpoint
 
 Libraries used :
-Pandas, Numpy, Matplotlib, Fastapi, Streamlit, Scikit-learn ...
+Pandas, Numpy, Matplotlib, Fastapi, Streamlit, Scikit-learn ...<br>
 Hosting : 
 Render
