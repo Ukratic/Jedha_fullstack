@@ -16,7 +16,7 @@ Delivered maps of selected city locations and hotel locations illustrating daily
 #### Speed Dating
 Explore a speed dating dataset to determine the factors that determine a second date opportunity
 
-*Python- Pandas, Numpy, Seaborn, Matplotlib*
+*Pandas, Numpy, Seaborn, Matplotlib*
 <br><br>
 
 #### 3. Predictive analysis of structured data using artificial intelligence
@@ -27,21 +27,25 @@ Estimate weekly sales in stores by building a machine learning model and explain
 #### Uber
 To optimize wait-time, create algorithms that will determine where are the hot-zones that drivers should be in at any given time of day
 
-*EDA, Sklearn, XGBoost, linear regression, regularization, logistic regression, decision trees, random forests, voting & boosting algorithms, gridsearch & cross validation, K-Means, DBSCAN, Gaussian Mixture, KNN*
+*Scikit-learn, XGBoost, linear regression, regularization, logistic regression, decision trees, random forests, voting & boosting algorithms, gridsearch & cross validation, K-Means, DBSCAN, Gaussian Mixture, KNN*
 <br><br>
 
 #### 4. Predictive analysis of unstructured data using artificial intelligence
 #### AT&T Spam Detector
 Build a deep learning model that can automatically flag spams based on message content
 
-*Tensorflow, Keras, Natural Language Processing, Tokenization, Encoding, Lemmatization*
+*Tensorflow, Keras, Transformers, Natural Language Processing : Tokenization, Encoding, Lemmatization, Embedding*
 <br><br>
 
 #### 5. Industrialization of a machine learning algorithm and automation of decision-making processes
 #### Getaround
-*Flask, Streamlit, API endpoints, machine learning models, model deployment, Heroku, Github*
+Build a dashboard and documented online API that will allow a business team to determine optimal delay between rentals.
+*Work in progress* <br>
+*Dash, Streamlit, Docker, FastAPI, Machine Learning, Model deployment, Render, Github*
 <br><br>
 
 #### 6. Administration of data management projects
-#### TBD
-*TBD*
+#### Protective Forests
+An analysis and presentation of the state of protective forests in Switzerland and main factors of growth.
+*Work in progress* <br>
+*Earth Engine, Satellite imagery, Meteorological data (Daymet), Xarray, Google Cloud Platform*
