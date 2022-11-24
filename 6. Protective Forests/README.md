@@ -5,7 +5,8 @@
 *Work in progress*
 
 Analysis of the state of protective forests in Switzerland and main factors of growth<br>
-Datasets:  :<br>  
+
+Datasets:<br>
 Climate and Protective Forests' evolution since 1982, provided by the Swiss <a href="https://www.lfi.ch/">National Forest Inventory</a><br>
 Meteorological data in Switzerland (Daymet 100/100m), Satellite (Landsat, Sentinel) data.<br>
 
