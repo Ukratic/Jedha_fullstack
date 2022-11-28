@@ -1,2 +1,2 @@
-# Ignore all json files : gcp keys
+# Ignore all json files : gcp keys & big satellite files
 *.json
