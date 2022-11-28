@@ -22,3 +22,5 @@ Libraries used :
 Beautifulsoup, Requests, Boto3, SQL Alchemy, Plotly, Pandas
 
 N.B. : 2 pictures in "data" folder to show S3 bucket contents and RDS table in pgAdmin
+
+<a href="https://share.vidyard.com/watch/syuCMBGmfxy897QVxyTV2U?">P1 Certification video link</a>

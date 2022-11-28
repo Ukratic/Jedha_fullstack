@@ -14,3 +14,5 @@ The notebook should include :
 
 Libraries used:
 Pandas, Numpy, Matplotlib, Seaborn
+
+<a href="https://share.vidyard.com/watch/v8zrGq6douiGrxTQiM8mq1?">P2 Certification video link</a> 
