@@ -1,2 +1,4 @@
 # Ignore all json files : gcp keys & big satellite files
 *.json
+# Ignore all nc4 files : meteo files
+*.nc4

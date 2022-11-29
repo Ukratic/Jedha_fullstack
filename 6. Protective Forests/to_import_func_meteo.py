@@ -7,8 +7,8 @@ def get_coordinates(period=str,file=str):
     Takes inputs : period (LFI), file with plots and swiss coordinates
     pandas package imported as pd"""
     data = pd.read_excel(file,sheet_name=period) 
-    x = data['X']/1000 +650 # coordinates are not centered at y/x=600/200 on Bern as they should be, but y/x=1250/1250
-    y = data['Y']/1000 +1050 
+    x = data['X']/1000 +600 # coordinates accessed in this way are not centered at x/y=6000/2000 on Bern as they should be, but x/y=1200/1260. The array starts at 4800/740.
+    y = data['Y']/1000 +1060  
     month = data['DATUMF'].dt.month
     year = data['DATUMF'].dt.year
     new_year = (year-1929)*12
