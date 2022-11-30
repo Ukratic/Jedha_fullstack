@@ -14,3 +14,5 @@ Deliverables :
 
 Libraries used :
 Pandas, Numpy, Matplotlib, Tensorflow, Transformers
+
+<a href="https://share.vidyard.com/watch/GdMxMDJh5u51YXXHVB8Fuw?">P4 Certification video link</a> 

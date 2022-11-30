@@ -1,5 +1,15 @@
 import pandas as pd
 import netCDF4 as nc
+import numpy as np
+import matplotlib.pyplot as plt
+import calendar
+
+## Required packages to run all functions : 
+# pandas as pd : get excel file, datetime
+# netCDF4 : read meteorological data
+# numpy as np : numbers, arrays
+# matplotlib.pyplot as plt : plot maps
+# calendar : string date from number
 
 
 def get_coordinates(period=str,file=str):
@@ -18,11 +28,11 @@ def get_coordinates(period=str,file=str):
 
 # example : dataplot = get_coordinates('LFI3','NFI_data/PLOTDATEN.xlsx')
 
-def selected_time(coords_df,file):
+def selected_time(time,file):
     """Returns time for selected element of the dataset.
-    Takes inputs : coord_df (from func get_coordinates) and netcdf file
+    Takes inputs : time in coord_df (from func get_coordinates) or int between 0-1067, netcdf file
     netCDF4 package imported as nc"""
-    d_time = file.variables['time'][coords_df]
+    d_time = file.variables['time'][time]
     time_unit = file.variables["time"].getncattr('units')
     time_cal = file.variables["time"].getncattr('calendar')
     local_time = nc.num2date(d_time, units=time_unit, calendar=time_cal) 
@@ -95,9 +105,9 @@ def select_weather_growth_months(line,data,file,kind,coord_df):
 # example : select_weather_growth_months(0,previous,prcp1930,'prcp',dataplot)
 
 
-def plot_image(coord_df,file,kind):
-    """Returns precipitation or temperature average since previous collection campaign, only for months of growth (april to september)
-    Takes inputs : time in coord_df (from func get_coordinates), netcdf file, kind ('tave' or 'prcp'), 
+def plot_image(time,file,kind):
+    """Plots map of precipitation or temperature average in Switzerland
+    Takes inputs : time (in coord_df from func get_coordinates or int between 0-1067), netcdf file, kind ('tave' or 'prcp'), 
     matplotlib.pyplot package imported as plt"""
     if kind == 'prcp':
         palette = 'viridis'
@@ -105,16 +115,48 @@ def plot_image(coord_df,file,kind):
     elif kind == 'tave':
         palette = 'magma'
         label = 'Temperature average in C°'
-    d_time = file.variables['time'][coord_df]
+    d_time = file.variables['time'][time]
     time_unit = file.variables["time"].getncattr('units')
     month = nc.num2date(d_time,units=time_unit).month
     year = nc.num2date(d_time,units=time_unit).year
     plt.figure(figsize=(12,12))
     plt.axis('off')
-    plt.imshow(file[kind][coord_df],origin='lower',cmap=palette)
+    plt.imshow(file[kind][time],origin='lower',cmap=palette)
     #plt.gcf().set_facecolor("white")
     plt.colorbar(orientation='horizontal',fraction=0.025,label=label) 
     plt.title(f"{label} for month {month} of year {year}")
     plt.show()
 
 # example : plot_image(dataplot[0][0],prcp1930,'prcp')
+
+def plot_image_interval(meteo_start,meteo_end,file,kind):
+    """Plots map of precipitation or temperature average in Switzerland between defined interval
+    Takes inputs : start time (in coord_df from func get_coordinates or int between 0-1067), end time, netcdf file, kind ('tave' or 'prcp'), 
+    matplotlib.pyplot package imported as plt"""
+    if kind == 'prcp':
+        palette = 'viridis'
+        label = 'Precipitations (in cm)'
+    elif kind == 'tave':
+        palette = 'magma'
+        label = 'Average Surface Air Temperature (in C°)'
+    d_time_s = file.variables['time'][meteo_start]
+    time_unit = file.variables["time"].getncattr('units')
+    month_start = nc.num2date(d_time_s,units=time_unit).month
+    year_start = nc.num2date(d_time_s,units=time_unit).year
+    d_time_e = file.variables['time'][meteo_end]
+    month_end = nc.num2date(d_time_e,units=time_unit).month
+    year_end = nc.num2date(d_time_e,units=time_unit).year
+    meteo = file[kind][meteo_start]
+    for i in range(meteo_start+1,meteo_end+1):
+        meteo += file[kind][i]
+    if kind == 'tave':
+        meteo /= (meteo_end-meteo_start)
+    plt.figure(figsize=(12,12))
+    plt.axis('off')
+    plt.imshow(meteo,origin='lower',cmap=palette)
+    plt.gcf().set_facecolor("white")
+    plt.colorbar(orientation='horizontal',fraction=0.025,label=label) 
+    plt.title(f"{label}, from {calendar.month_name[month_start]} of {year_start} to {calendar.month_name[month_end]} of {year_end}")
+    plt.show()
+
+# example : plot_image_interval(903,908,tave1930,'tave')

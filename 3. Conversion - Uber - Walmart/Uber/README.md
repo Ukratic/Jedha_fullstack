@@ -12,6 +12,9 @@ KMeans, Gaussian Mixture, DBSCAN
 Tools & metrics :
 Silhouette score, Elbow method
 
+The recommendation function drew inspiration from :<br>
+Boeing, G. (2018, March 22). Clustering to Reduce Spatial Data Set Size. https://doi.org/10.31235/osf.io/nzhdc
+
 Visualization libraries :
 Plotly, Seaborn, Matplotlib
 

@@ -9,4 +9,5 @@ Estimate weekly sales in stores by building a machine learning model and explain
 To optimize wait-time, create algorithms that will determine where are the hot-zones that drivers should be in at any given time of day
 
 *Tools : EDA, Sklearn, XGBoost, linear regression, regularization, logistic regression, decision trees, random forests, voting & boosting algorithms, gridsearch & cross validation, K-Means, DBSCAN, Gaussian Mixture, KNN*
-<br><br>
+
+<a href="https://share.vidyard.com/watch/drL5yDunNRGrgK45tZMVDB?">P3 Certification video link</a> 
