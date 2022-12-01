@@ -12,6 +12,13 @@ import calendar
 # calendar : string date from number
 
 
+## To use with netcdf files from Daymet-CH. Some functions will break if used on a "small" (less than a few years) dataset
+# Reading such files: "data = nc.Dataset('D:/DaymetCH/ch_prcp_1930-2018_m_ch1903.nc4')"
+# You should then explore contents with "data.variables","data.__dict__","data.shape" ; 
+# Then dive into dimensions with "data['time']","data['prcp'] before accessing specific values such as in "data.variables['prcp'][1020].compressed().max()" (max precipitation in Switzerland for January 2015)
+# Data loaded with the Xarray library instead of netCDF4 should in theory work but in this case I would encourage you to build your own functions, as this may not prove reliable.
+
+
 def get_coordinates(period=str,file=str):
     """Get coordinates of plots from and to a dataframe.
     Takes inputs : period (LFI), file with plots and swiss coordinates

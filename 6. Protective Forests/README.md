@@ -19,12 +19,12 @@ Deliverables :
 Main contributors :
 - Satellite data : Jesshuan
 - Meteorological data : Myself
-- EDA : Marjory, Estelle
+- Dashboard : Marjory
 - Scientific expertise : Estelle
-- Modeling : All project members
+- EDA & modeling : All project members
 
 Libraries used :
 Pandas, Numpy, Openpyxl, Json, Xarray, netCDF4, Earth Engine, Matplotlib, Plotly, Scikit-learn, Streamlit<br>
-Hosting and Cloud Computing : Google Cloud Platform
+Storage and Cloud Computing : Google Cloud Platform
 
 Useful documentation : <a href="https://www.researchgate.net/profile/Urs-Beat-Braendli/publication/342143876_Inventaire_forestier_national_suisse_Resultats_du_quatrieme_inventaire_2009_-_2017/links/5ee43ba0299bf1faac52615a/Inventaire-forestier-national-suisse-Resultats-du-quatrieme-inventaire-2009-2017.pdf">4th inventory results 2009-2017</a>
