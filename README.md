@@ -46,6 +46,6 @@ Build a dashboard and documented online API that will allow a business team to d
 
 #### 6. Administration of data management projects
 #### Protective Forests
-An analysis and presentation of the state of protective forests in Switzerland and main factors of growth.
+An analysis and presentation of the state of protective forests in Switzerland, main factors of growth, evolution and dangers.
 *Work in progress* <br>
-*Earth Engine, Satellite imagery, Meteorological data (Daymet), Xarray, Google Cloud Platform*
+*Earth Engine : Satellite imagery, Netcdf : Meteorological data (Daymet), Cloud computing & storage: Google Cloud Platform, EDA : Pandas Numpy Plotly, Modeling : Scikit-learn, Dashboard : Streamlit*

@@ -36,9 +36,9 @@ Main contributors :
 Does NOT contain actual full meteorological files in netcdf (30 GB)
 
 *docs*:<br>
-Useful documentation on Silva Protect Swiss framework and conversion from Swiss to WGS84 coordinates
+- Useful documentation on Silva Protect Swiss framework and conversion from Swiss to WGS84 coordinates
 
-**Docker*:
+*Docker*:
 - Dockerfile to easily run Earth Engine (SAT notebooks in this repository) on Windows<br>
 Add a requirements.txt with the following values (1 line each): earthengine-api numpy matplotlib pandas plotly requests datetime openpyxl
 
@@ -48,13 +48,13 @@ Add a requirements.txt with the following values (1 line each): earthengine-api 
 2. Defining functions to extract data and plotting maps for given time and intervals
 3. Trends in temperature and precipitations through the years
 
-*to_import_func_meteo.py*:<br>
-To import predefined meteorological functions (provided you have the netcdf files) 
+*to_import_func_meteo.py*:
+- To import predefined meteorological functions (provided you have the netcdf files) 
 
-*eda.ipynb*:<br>
-Understanding data from NFI collection campaigns, preparing the presentation and graphs
+*eda.ipynb*:
+- Understanding data from NFI collection campaigns, preparing the presentation and graphs
 
-*modeling.ipynb*:<br>
+*modeling.ipynb*:
 - Modeling to describe the current state of protective forests and determine useful features and targets
 - Attempt to predict the future state of protective forests
 
@@ -63,11 +63,11 @@ Understanding data from NFI collection campaigns, preparing the presentation and
 - Aggregate results into a csv file with NDVI,EVI,NDMI,NDWI,DSWI formulas
 
 *coords_swiss_to_geo.ipynb*:<br>
-Convert coordinates from Swiss LV95 to WGS84
+- Convert coordinates from Swiss LV95 to WGS84
 
 
 Libraries used :
-Pandas, Numpy, Openpyxl, Json, Xarray, netCDF4, Earth Engine, Matplotlib, Plotly, Scikit-learn, Streamlit<br>
-Storage and Cloud Computing : Google Cloud Platform
+Pandas, Numpy, Openpyxl, Json, Xarray, netCDF4, Earth Engine, Matplotlib, Plotly, Seaborn, Scikit-learn, Tensorflow, Streamlit<br>
+Storage and Cloud Computing : Google Cloud Platform (Storage, Compute Engine, Vertex AI)
 
 Additional documentation : <a href="https://www.researchgate.net/profile/Urs-Beat-Braendli/publication/342143876_Inventaire_forestier_national_suisse_Resultats_du_quatrieme_inventaire_2009_-_2017/links/5ee43ba0299bf1faac52615a/Inventaire-forestier-national-suisse-Resultats-du-quatrieme-inventaire-2009-2017.pdf">4th inventory results 2009-2017</a>
