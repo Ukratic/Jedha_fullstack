@@ -4,12 +4,18 @@
 
 *Final link to dashboard and presentation coming soon*
 
-Analysis of the state of protective forests in Switzerland and main factors of growth<br>
+An analysis of the state of protective forests in Switzerland, main factors of growth and health<br>
+
+<img src="https://github.com/Ukratic/Jedha_fullstack/blob/main/6.%20Protective%20Forests/backup/forest1.jpg" alt="Picture @Rudolf Zuber-Thoma" width="400" height="400"/>
 
 Datasets:<br>
 Climate and Protective Forests' evolution since 1982, provided by the Swiss <a href="https://www.lfi.ch/">National Forest Inventory</a><br>
 Meteorological data in Switzerland (Daymet 100/100m), Satellite (Landsat, Sentinel) data.<br>
 Sat ref : <a href="https://eo4geocourses.github.io/IGIK_Sentinel2-Data-and-Vegetation-Indices/#/23">eo4geocourses on stl2 data</a><br>
+
+Forests in Switzerland are still increasing (in opposition to the global trend), but much less so in recent years. Moreover, area increase is not the only key factor to forests' health.
+
+<img src="https://github.com/Ukratic/Jedha_fullstack/blob/main/6.%20Protective%20Forests/backup/map1.jpg" alt="Source: Arealstatistik – Bundesamt für Statistik (BFS) & Amt für Bau und Infrastruktur Liechtenstein" width="600" height="400"/>
 
 Deliverables :
 - Presentation of the data, workflow and results
@@ -22,6 +28,10 @@ Main contributors :
 - Dashboard : Marjory
 - Scientific expertise : Estelle
 - EDA & modeling : All project members
+
+Average temperature has very significantly increased over the past 40 years in Swiss protective forests, even more than in Switzerland at large which already sees its average temperatures <a href="https://www.iea.org/articles/switzerland-climate-resilience-policy-indicator">rise at a faster pace than the rest of the World</a>. 
+
+<img src="https://github.com/Ukratic/Jedha_fullstack/blob/main/6.%20Protective%20Forests/meteo_data/prcp_tave.png" alt="Massive increase in temperature over the last 40 years" width="600" height="400"/>
 
 #### Navigate through the folders and files 
 **Folders**<br>
