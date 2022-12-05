@@ -8,9 +8,10 @@ An analysis of the state of protective forests in Switzerland, main factors of g
 
 <img src="https://github.com/Ukratic/Jedha_fullstack/blob/main/6.%20Protective%20Forests/backup/forest1.jpg" alt="Picture @Rudolf Zuber-Thoma" width="400" height="400"/>
 
-Datasets:<br>
-Climate and Protective Forests' evolution since 1982, provided by the Swiss <a href="https://www.lfi.ch/">National Forest Inventory</a><br>
-Meteorological data in Switzerland (Daymet 100/100m), Satellite (Landsat, Sentinel) data.<br>
+Datasets:
+- Climate and Protective Forests' evolution since 1982, provided by the Swiss <a href="https://www.lfi.ch/">National Forest Inventory</a>
+- Meteorological data in Switzerland (Daymet 1/1km)
+- Satellite (Landsat5 & 7) imagery.
 Sat ref : <a href="https://eo4geocourses.github.io/IGIK_Sentinel2-Data-and-Vegetation-Indices/#/23">eo4geocourses on stl2 data</a><br>
 
 Forests in Switzerland are still increasing (in opposition to the global trend), but much less so in recent years. Moreover, area increase is not the only key factor to forests' health.
@@ -75,7 +76,7 @@ Add a requirements.txt with the following values (1 line each): earthengine-api 
 *coords_swiss_to_geo.ipynb*:<br>
 - Convert coordinates from Swiss LV95 to WGS84
 
-
+<br>
 Libraries used :
 Pandas, Numpy, Openpyxl, Json, Xarray, netCDF4, Earth Engine, Matplotlib, Plotly, Seaborn, Scikit-learn, Tensorflow, Streamlit<br>
 Storage and Cloud Computing : Google Cloud Platform (Storage, Compute Engine, Vertex AI)
