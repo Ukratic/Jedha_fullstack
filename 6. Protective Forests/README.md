@@ -8,6 +8,7 @@ An analysis of the state of protective forests in Switzerland, main factors of g
 
 <img src="https://github.com/Ukratic/Jedha_fullstack/blob/main/6.%20Protective%20Forests/backup/forest1.jpg" alt="Picture @Rudolf Zuber-Thoma" width="400" height="400"/>
 
+
 Datasets:
 - Climate and Protective Forests' evolution since 1982, provided by the Swiss <a href="https://www.lfi.ch/">National Forest Inventory</a>
 - Meteorological data in Switzerland (Daymet 1/1km)
@@ -22,6 +23,8 @@ Deliverables :
 - Presentation of the data, workflow and results
 - Maps featuring rate of growth (or withering) and protective effect of forests, in relation to climate
 - Dashboard with plots and results
+
+ <a href="https://public.tableau.com/app/profile/arnaud.barraquand/viz/ProtectionforestsinSwitzerlandLFI4/Feuille1">Basal area and regeneration coverage rate per campaign in interactive Tableau map</a>
 
 Main contributors :
 - Satellite data : <a href="https://github.com/Jesshuan">Jesshuan</a>
