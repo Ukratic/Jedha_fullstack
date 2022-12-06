@@ -45,7 +45,7 @@ Build a dashboard and documented online API that will allow a business team to d
 <br><br>
 
 #### 6. Administration of data management projects
-#### Protective Forests
-An analysis and presentation of the state of protective forests in Switzerland, main factors of growth, evolution and dangers.
-*Work in progress* <br>
+#### Protection Forests
+Team project : An analysis and presentation of the state of protective forests in Switzerland, main factors of growth, evolution and dangers.
+<a href="https://github.com/Ukratic/Protection-Forests">Link to repository</a> <br>
 *Earth Engine : Satellite imagery, Netcdf : Meteorological data (Daymet), Cloud computing & storage: Google Cloud Platform, EDA : Pandas Numpy Plotly, Modeling : Scikit-learn, Dashboard : Streamlit*
