@@ -7,10 +7,12 @@ Datasets on cars (brand, motorization, price...) and delays on rentals (time del
 <br>
 
 Deliverables :
-- A dashboard on a web page : [On streamlit](https://ukratic-getaround-dashboard-delay-yozd5u.streamlit.app/)
-- A documented online API containing at least one /predict endpoint : [Heroku app](https://getaround-api-p5.herokuapp.com/)
+- A dashboard on a web page : [On streamlit](https://ukratic-getaround-dashboard-delay-yozd5u.streamlit.app/) / [Repo](https://github.com/Ukratic/Getaround_dashboard)
+- A documented online API containing at least one /predict endpoint : [Heroku app](https://getaround-api-p5.herokuapp.com/docs)
 
 Libraries used :
 Pandas, Numpy, Seaborn, Fastapi, Streamlit, Scikit-learn<br>
 Hosting : 
 Streamlit Cloud, Heroku
+
+<a href="/">P5 Certification video link</a> 
