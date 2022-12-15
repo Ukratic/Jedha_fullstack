@@ -2,18 +2,15 @@
 
 ## Getaround
 
-*Work in progress*
-
-Build a dashboard and documented online API that will allow a business team to determine optimal delay between rentals.<br>
-Datasets on cars (brand, motorization, price...) and rentals (delay, cancelled or not...).
+Build a dashboard and documented online API that will allow users to optimize rental pricing.<br>
+Datasets on cars (brand, motorization, price...) and delays on rentals (time delta, cancelled or not...).
 <br>
 
-
 Deliverables :
-- A dashboard on a web page
-- A documented online API containing at least one /predict endpoint
+- A dashboard on a web page : [On streamlit](https://ukratic-getaround-dashboard-delay-yozd5u.streamlit.app/)
+- A documented online API containing at least one /predict endpoint : [Heroku app]()
 
 Libraries used :
-Pandas, Numpy, Matplotlib, Fastapi, Streamlit, Scikit-learn ...<br>
+Pandas, Numpy, Seaborn, Fastapi, Streamlit, Scikit-learn<br>
 Hosting : 
-Render
+Streamlit Cloud, Heroku
