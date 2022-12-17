@@ -39,13 +39,19 @@ Build a deep learning model that can automatically flag spams based on message c
 
 #### 5. Industrialization of a machine learning algorithm and automation of decision-making processes
 #### Getaround
-Build a dashboard and documented online API that will allow a business team to determine optimal delay between rentals.
-*Work in progress* <br>
+Build a dashboard that will allow a business team to determine optimal delay between rentals and a documented online API with a predict endpoint for rental pricing.
+
 *Dash, Streamlit, Docker, FastAPI, Machine Learning, Model deployment, Render, Github*
 <br><br>
 
 #### 6. Administration of data management projects
 #### Protection Forests
 Team project : An analysis and presentation of the state of protective forests in Switzerland, main factors of growth, evolution and dangers.
-<a href="https://github.com/Ukratic/Protection-Forests">Link to repository</a> <br>
-*Earth Engine : Satellite imagery, Netcdf : Meteorological data (Daymet), Cloud computing & storage: Google Cloud Platform, EDA : Pandas Numpy Plotly, Modeling : Scikit-learn, Dashboard : Streamlit*
+<a href="https://github.com/Ukratic/Protection-Forests">Link to repository</a>
+
+*Satellite imagery : Google Earth Engine*, <br>
+*Meteorological data (Daymet) : netcdf files*, <br>
+*Cloud computing & storage: Google Cloud Platform*, <br>
+*EDA : Pandas, Numpy, Plotly, Seaborn*, <br>
+*Modeling : Scikit-learn, Tensorflow*, <br>
+*Dashboard : Streamlit, Tableau*

@@ -1,2 +1,3 @@
-# Ignore all json files : gcp keys
+# Ignore all json and toml files : gcp keys
 *.json
+*.toml
